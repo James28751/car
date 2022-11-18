@@ -21,6 +21,7 @@ public class ui : MonoBehaviour
        UItext = GameObject.Find("UItext");
         over = GameObject.Find("overtext");
         MDF= GameObject.Find("MDF");
+        Debug.Log("Hello World");
     }
 
     // Update is called once per frame
