@@ -24,6 +24,7 @@ public class car : MonoBehaviour
             Vector2 end = Input.mousePosition;
             float i = end.x - start.x;
             speed = i / 500.0f;
+            GetComponent<AudioSource>().Play();
         }
         transform.Translate(speed, 0, 0);
         speed *= 1.0f;
